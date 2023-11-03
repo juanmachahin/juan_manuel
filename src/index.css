@@ -1,0 +1,12 @@
+:root {
+  background-color: white;
+  background-color: #ffffff;
+  background-color: #ffffff;
+  background-image: url(./Images/foco.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}

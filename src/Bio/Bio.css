@@ -1,0 +1,32 @@
+.bio_container  {
+    margin-top: 5%;
+    min-height: 100vh;
+}
+
+.bio {
+    align-self: flex-start;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    width: 30%;
+}
+
+.bio_header {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.summary {
+    font-size: 20px;
+    
+}
+
+.education {
+    font-size: 20px;
+}
+
+.journey {
+    font-size: 20px;
+}
