@@ -1,5 +1,5 @@
 .bio_container  {
-    margin-top: 5%;
+    margin-top: 10%;
     min-height: 100vh;
 }
 
@@ -30,3 +30,100 @@
 .journey {
     font-size: 20px;
 }
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin-top: 8%;
+    border-radius: 8px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .bio_container  {
+        margin-top: 10%;
+        min-height: 100vh;
+        width: 100%;
+    }
+    
+    .bio {
+        align-self: flex-start;
+        padding-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+        width: 80%;
+    }
+    
+    .bio_header {
+        font-size: 28px;.bio_container  {
+    margin-top: 10%;
+    min-height: 100vh;
+}
+
+.bio {
+    align-self: flex-start;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    width: 30%;
+}
+
+.bio_header {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.summary {
+    font-size: 20px;
+    
+}
+
+.education {
+    font-size: 20px;
+}
+
+.journey {
+    font-size: 20px;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin-top: 8%;
+    border-radius: 8px;
+
+}
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .summary {
+        font-size: 20px;
+        
+    }
+    
+    .education {
+        font-size: 20px;
+    }
+    
+    .journey {
+        font-size: 20px;
+    }
+    .photo {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin-top: 8%;
+        border-radius: 8px;
+    
+    }
+    
+}
+
+

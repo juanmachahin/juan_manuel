@@ -1,7 +1,5 @@
 import React from "react"
 import "./Home.css"
-import "../Navbar/Navbar"
-import Navbar from "../Navbar/Navbar"
 import {useTypewriter, Cursor} from "react-simple-typewriter"
 
 const Home = () => {
@@ -19,7 +17,6 @@ const Home = () => {
 
     return (
 <>
-    <Navbar />
     <article className="centered-container">
         
         <div className="home">

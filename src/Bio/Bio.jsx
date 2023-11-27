@@ -1,7 +1,6 @@
 import React from "react"
 import "./Bio.css"
 
-
 const Bio = () => {
 
     return (
@@ -39,12 +38,13 @@ const Bio = () => {
                     Juan Manuel Chahin brings a unique and versatile perspective to any creative, 
                     business, or tech project.
                     </span>
+                    <div className="photo_bio">
+                <img src="src\Images\jmsucre.jpg" className="photo"></img>
+            </div>
                 </div>
 
             </div>
-            <div className="photo_bio">
-                <img className="foto"></img>
-            </div>
+           
         </article>
     </>
 

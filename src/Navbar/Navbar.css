@@ -1,13 +1,14 @@
 .navbar{
     background: black;
-    height: 60px;
+    width: 100% !important;
+    height: 7vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     }
     .nav_logo{
-    font-weight:700;
-    font-size: 25px;
+    font-weight:500;
+    font-size: 13px;
     color: white;
     margin: 0;
     padding: 14px;
@@ -34,8 +35,14 @@
     .nav_toggle{
     display: none;
     }
-
+   
     @media (max-width: 768px) {
+    .navbar {
+
+        margin: none;
+        padding: none;
+        width: 100%;
+    }    
     .nav_items{
     position: absolute;
     top: 60px;
@@ -43,13 +50,23 @@
     background: black;
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:100% !important;
+    height: 100vh !important;
     height: -webkit-fill-available;
     transform: translateX(-100%);
     transition: 0.3s ease all;
+    margin: none;
+    padding: none;
 }
+    .nav_logo {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
 .nav_items.open{
-transform: translateX(0) !important
+transform: translateX(0) !important;
+  width: 100vh;
+  margin: 0;
+  
 }
 .nav_toggle{
 display: flex !important;
@@ -76,4 +93,70 @@ display: none;
 transform: rotate(-45deg)
 translate(-5px, 1px);
 }
+}
+@media (max-width: 480px) {
+    .navbar {
+
+        margin: none;
+        padding: none;
+        width: 100%;
+    }    
+    .nav_items{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    width:100% !important;
+    height: 100vh !important;
+    height: -webkit-fill-available;
+    transform: translateX(-100%);
+    transition: 0.3s ease all;
+    margin: none;
+    padding: none;
+}
+    .nav_logo {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+.nav_items.open{
+transform: translateX(0) !important;
+  width: 100vh;
+  margin: 0;
+  
+}
+.nav_toggle{
+display: flex !important;
+flex-direction: column;
+margin: 15px;
+}
+.nav_toggle span{
+width: 30px;
+height: 4px;
+background: white;
+margin-bottom: 5px;
+border-radius: 2px;
+transform-origin: 5px 0px;
+transition: all 0.2s linear;
+}
+.nav_toggle.open > span{
+transform: rotate(45deg) translate(0px,
+0px);
+}
+.nav_toggle.open > span:nth-child(2){
+display: none;
+}
+.nav_toggle.open > span:nth-child(3){
+transform: rotate(-45deg)
+translate(-5px, 1px);
+}
+}
+
+@media screen and (max-width: 376px) {
+    navbar {
+        margin: none !important;
+        padding: none !important;
+        height: 8vh !important;
+    }    
 }
