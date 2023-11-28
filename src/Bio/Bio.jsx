@@ -39,7 +39,7 @@ const Bio = () => {
                     business, or tech project.
                     </span>
                     <div className="photo_bio">
-                <img src="src\Images\jmsucre.jpg" className="photo"></img>
+                <img src="public\Images\jmsucre.jpg" className="photo"></img>
             </div>
                 </div>
 

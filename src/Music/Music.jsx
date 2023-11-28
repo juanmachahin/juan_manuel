@@ -13,13 +13,13 @@ const Music = () => {
           <aside className="streaming-container">
           <article className="audius-container">
           <a className="audius" href="https://audius.co/juanmanuel" target="_blank">
-          <img src="src\Images\audius-black.png"
+          <img src="public\Images\audius-black.png"
             className="audius-logo" alt="audius-logo" />
             </a>
             </article> 
           <article className="youtube-container">
           <a className="youtube" href="https://youtube.com/@juanmachahin/videos" target="_blank">
-          <img src="src\Images\youtube-black.png"
+          <img src="public\Images\youtube-black.png"
             className="youtube-logo" alt="youtube" />
             </a>
             </article>
@@ -27,7 +27,7 @@ const Music = () => {
           <a className="spotify" 
                 href="https://open.spotify.com/intl-es/artist/2xv0lauB0sNZTmQOASr7pj?si=SqFDskzGRWi5M4gDyQrAtA" 
                 target="_blank">
-          <img src="src\Images\Spotify-Black.png" alt="spotify-logo" className="spotify-logo"/>
+          <img src="public\Images\Spotify-Black.png" alt="spotify-logo" className="spotify-logo"/>
           </a>
           </article>
           </aside>
