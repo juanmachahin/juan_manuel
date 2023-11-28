@@ -26,7 +26,7 @@ const Portfolio = () => {
           </article>
           <article className='doctor'>
             <h2>
-            <a href='https://gvique.netlify.app/' target="_blank" className='dr'>Doctor</a> 
+            <a href='https://dr-gabriel-vique.netlify.app/' target="_blank" className='dr'>Doctor</a> 
             </h2>
            
 
