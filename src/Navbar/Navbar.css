@@ -100,6 +100,7 @@ translate(-5px, 1px);
         margin: none;
         padding: none;
         width: 100%;
+        height: 10vh;
     }    
     .nav_items{
     position: absolute;
@@ -109,12 +110,12 @@ translate(-5px, 1px);
     display: flex;
     flex-direction: column;
     width:100% !important;
-    height: 100vh !important;
+    height: 250vh !important;
     height: -webkit-fill-available;
     transform: translateX(-100%);
     transition: 0.3s ease all;
-    margin: none;
-    padding: none;
+    margin: none !important;
+    padding: none !important;
 }
     .nav_logo {
         margin-bottom: 0;

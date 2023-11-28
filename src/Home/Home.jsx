@@ -21,7 +21,7 @@ const Home = () => {
         
         <div className="home">
             <div className="writeContainer">
-                <span className="write_1"> HELLO.
+                <span className="write_1"> Hello.
                 </span>
             </div>
             <div className="writeContainer_2">
