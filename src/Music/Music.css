@@ -9,8 +9,9 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 11rem;
+    margin-top: 9rem;
     margin-left: 7rem;
+    margin-bottom: 2%;
 }
 
 .music-container {
@@ -20,18 +21,14 @@
     margin-left: 4rem;
 }
 .audius-logo {
-    width: 7rem;
-    height: 7rem;
-
+    width: 6rem;
 }
 
 .youtube-logo {
-    width: 7rem;
-    height: 4rem; 
+    width: 8rem;
 }
 .spotify-logo {
-    width: 7rem;
-    height: 4rem;
+    width: 10rem;
 }
 @media screen and (max-width: 1024px) {
     .music-container {
@@ -58,32 +55,35 @@
     .music-container {
         display: flex;
         flex-direction: column;
+        margin-bottom: 39% !important;
        } 
        .music-title {
-        font-size: 2rem;
+        font-size: 3.5vh;
         width: 23vh;
-        margin-top: 4rem;
+        margin-top: 2% !important;
         margin-left: 0;
+        margin-bottom: 20%;
     }
     .streaming-container {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
-        margin-top: 6rem;
+        gap: 4rem;
+        margin-top: 11rem;
         margin-left: 2rem;
+        margin-bottom: 40%;
     }.audius-logo {
-        width: 7rem;
-        height: 7rem;
+        width: 6rem;
+
     
     }
     
     .youtube-logo {
-        width: 7rem;
-        height: 4rem; 
+        width: 8rem;
+  
     }
     .spotify-logo {
-        width: 7rem;
-        height: 4rem;
+        width: 10rem;
+    
     }
 
 }
