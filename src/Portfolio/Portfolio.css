@@ -357,3 +357,122 @@ a {
         border-radius: 10px;
     }  
 }
+
+@media screen and (max-width: 440px) {
+    .portfolioTitle {
+        font-size: 5vh;
+        padding-top: 25%;
+        padding-left: 6%;
+    }
+    .portfolioContainer {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        width: 50%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+      
+    }
+    .twitter {
+        background-color: black;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+        font-size: 3vh;
+    }
+    .twitter:hover {
+       background-color: #3264e6;
+       color: white;
+       padding-left: 1%;
+       padding-top: 1%;
+       padding-bottom: 1%;
+       padding-right: 1%;
+       border-radius: 5px;
+    }
+    .market {
+        background-color: black;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+        font-size: 3vh;
+    }
+    .market:hover {
+        background-color: #3264e6;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+     }
+     .dr {
+        background-color: black;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+        font-size: 3vh;
+     }
+     .dr:hover {
+        background-color: #3264e6;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+     }
+     .movie-finder {
+        background-color: black;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+        font-size: 3vh;
+     }
+     .movie-finder:hover {
+        background-color: #3264e6;
+        color: white;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        border-radius: 5px;
+     }
+    
+    .Twitter-Card {
+        width: 70vh;
+        height: 50vh;
+        border-radius: 10px;
+        padding-bottom: 8%;
+    }
+    .E-Market {
+        width: 70vh;
+        height: 50vh;
+        border-radius: 10px;
+        padding-bottom: 4%;
+    }
+    .Doctor {
+        width: 70vh;
+        height: 50vh;
+        border-radius: 10px;
+        padding-bottom: 4%;
+    }
+    .Movie-Finder {
+        width: 70vh;
+        height: 50vh;
+        border-radius: 10px;
+    }  
+}
